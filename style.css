@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    width: 100%;
+    height: 100px;
+    background-color: #011627;
+    overflow: hidden;
+}
+
+.navbar ul {
+    float: right;
+    display: block;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-right: 100px;
+}
+
+.navbar ul li {
+    display: inline-block;
+    padding-right: 40px;
+}
+
+.navbar ul li a {
+    font-family: "segoe ui", sans-serif;
+    font-weight: 600;
+    color: #FDFFFC;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar ul li a:hover {
+    color: #41EAD4;
+    transition: 0.4s;
+}
+
+.logo {
+    max-height: 100%;
+    max-width: 100%;
+    margin-left: 100px;
+    height: 70px;
+    margin-top: 18px;
+}
+
+.button {
+    font-family: "segoe ui", sans-serif;
+    background-color: #41EAD4;
+    border-radius: 200px;
+    color: #FDFFFC;
+    font-size: 19px;
+    font-weight: 600;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.13);
+    border: none;
+    cursor: pointer;
+    
+}
+
+.button:hover {
+    background-color: #011627;
+    transition: 0.4s;
+}
+
+.buttonbad {
+    padding: 11px 31px;
+}
+
+.buttongym {
+    padding: 11px 64px;
+}
+
+
+.card {
+    width: 300px;
+    text-align: center;
+    margin-left: 200px;
+    float: left;
+    margin: 100px;
+}
+
+.container {
+  padding: 10px;
+}
+
+.wrap {
+    margin: 0 auto;
+    width: 1000px;
+    position: relative;
+    bottom: 40px;
+}
+
+.centermsg {
+    margin-top: 20px;
+}
+
+.msg1 {
+    text-align: center;
+    font-family: "segoe ui", sans-serif;
+    font-size: 50px;
+    color: #011627;
+}
+
+.msg2 {
+    text-align: center;
+    font-size: 24px;
+    font-family: "segoe ui", sans-serif;
+    color: #011627;
+}
+
+#id1 {
+    color: #41EAD4;
+    font-weight: 500;
+}
